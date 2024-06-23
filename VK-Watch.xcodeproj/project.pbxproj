@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A1E5F02C28167C00CAD772 /* VK_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1E5EF2C28167C00CAD772 /* VK_WatchApp.swift */; };
+		11A1E5F22C28167C00CAD772 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1E5F12C28167C00CAD772 /* ContentView.swift */; };
+		11A1E5F42C28167D00CAD772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A1E5F32C28167D00CAD772 /* Assets.xcassets */; };
+		11A1E5F72C28167D00CAD772 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A1E5F62C28167D00CAD772 /* Preview Assets.xcassets */; };
+		11A1E6012C28167D00CAD772 /* VK_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1E6002C28167D00CAD772 /* VK_WatchTests.swift */; };
+		11A1E60B2C28167D00CAD772 /* VK_WatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1E60A2C28167D00CAD772 /* VK_WatchUITests.swift */; };
+		11A1E60D2C28167D00CAD772 /* VK_WatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1E60C2C28167D00CAD772 /* VK_WatchUITestsLaunchTests.swift */; };
+		11A1E6132C28167D00CAD772 /* VK-Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 11A1E6122C28167D00CAD772 /* VK-Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11A1E6182C28167D00CAD772 /* VK_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1E6172C28167D00CAD772 /* VK_WatchApp.swift */; };
+		11A1E61A2C28167D00CAD772 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1E6192C28167D00CAD772 /* ContentView.swift */; };
+		11A1E61C2C28167E00CAD772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A1E61B2C28167E00CAD772 /* Assets.xcassets */; };
+		11A1E61F2C28167E00CAD772 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A1E61E2C28167E00CAD772 /* Preview Assets.xcassets */; };
+		11A1E6292C28167E00CAD772 /* VK_Watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1E6282C28167E00CAD772 /* VK_Watch_Watch_AppTests.swift */; };
+		11A1E6332C28167E00CAD772 /* VK_Watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1E6322C28167E00CAD772 /* VK_Watch_Watch_AppUITests.swift */; };
+		11A1E6352C28167E00CAD772 /* VK_Watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1E6342C28167E00CAD772 /* VK_Watch_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11A1E5FD2C28167D00CAD772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A1E5E42C28167C00CAD772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A1E5EB2C28167C00CAD772;
+			remoteInfo = "VK-Watch";
+		};
+		11A1E6072C28167D00CAD772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A1E5E42C28167C00CAD772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A1E5EB2C28167C00CAD772;
+			remoteInfo = "VK-Watch";
+		};
+		11A1E6142C28167D00CAD772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A1E5E42C28167C00CAD772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A1E6112C28167D00CAD772;
+			remoteInfo = "VK-Watch Watch App";
+		};
+		11A1E6252C28167E00CAD772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A1E5E42C28167C00CAD772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A1E6112C28167D00CAD772;
+			remoteInfo = "VK-Watch Watch App";
+		};
+		11A1E62F2C28167E00CAD772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A1E5E42C28167C00CAD772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A1E6112C28167D00CAD772;
+			remoteInfo = "VK-Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11A1E63B2C28167E00CAD772 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				11A1E6132C28167D00CAD772 /* VK-Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11A1E5EC2C28167C00CAD772 /* VK-Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK-Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A1E5EF2C28167C00CAD772 /* VK_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_WatchApp.swift; sourceTree = "<group>"; };
+		11A1E5F12C28167C00CAD772 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11A1E5F32C28167D00CAD772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A1E5F62C28167D00CAD772 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11A1E5FC2C28167D00CAD772 /* VK-WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK-WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A1E6002C28167D00CAD772 /* VK_WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_WatchTests.swift; sourceTree = "<group>"; };
+		11A1E6062C28167D00CAD772 /* VK-WatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK-WatchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A1E60A2C28167D00CAD772 /* VK_WatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_WatchUITests.swift; sourceTree = "<group>"; };
+		11A1E60C2C28167D00CAD772 /* VK_WatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_WatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11A1E6122C28167D00CAD772 /* VK-Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK-Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A1E6172C28167D00CAD772 /* VK_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_WatchApp.swift; sourceTree = "<group>"; };
+		11A1E6192C28167D00CAD772 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11A1E61B2C28167E00CAD772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A1E61E2C28167E00CAD772 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11A1E6242C28167E00CAD772 /* VK-Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK-Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A1E6282C28167E00CAD772 /* VK_Watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_Watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		11A1E62E2C28167E00CAD772 /* VK-Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK-Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A1E6322C28167E00CAD772 /* VK_Watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_Watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		11A1E6342C28167E00CAD772 /* VK_Watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_Watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A1E5E92C28167C00CAD772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E5F92C28167D00CAD772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E6032C28167D00CAD772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E60F2C28167D00CAD772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E6212C28167E00CAD772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E62B2C28167E00CAD772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A1E5E32C28167C00CAD772 = {
+			isa = PBXGroup;
+			children = (
+				11A1E5EE2C28167C00CAD772 /* VK-Watch */,
+				11A1E5FF2C28167D00CAD772 /* VK-WatchTests */,
+				11A1E6092C28167D00CAD772 /* VK-WatchUITests */,
+				11A1E6162C28167D00CAD772 /* VK-Watch Watch App */,
+				11A1E6272C28167E00CAD772 /* VK-Watch Watch AppTests */,
+				11A1E6312C28167E00CAD772 /* VK-Watch Watch AppUITests */,
+				11A1E5ED2C28167C00CAD772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11A1E5ED2C28167C00CAD772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A1E5EC2C28167C00CAD772 /* VK-Watch.app */,
+				11A1E5FC2C28167D00CAD772 /* VK-WatchTests.xctest */,
+				11A1E6062C28167D00CAD772 /* VK-WatchUITests.xctest */,
+				11A1E6122C28167D00CAD772 /* VK-Watch Watch App.app */,
+				11A1E6242C28167E00CAD772 /* VK-Watch Watch AppTests.xctest */,
+				11A1E62E2C28167E00CAD772 /* VK-Watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A1E5EE2C28167C00CAD772 /* VK-Watch */ = {
+			isa = PBXGroup;
+			children = (
+				11A1E5EF2C28167C00CAD772 /* VK_WatchApp.swift */,
+				11A1E5F12C28167C00CAD772 /* ContentView.swift */,
+				11A1E5F32C28167D00CAD772 /* Assets.xcassets */,
+				11A1E5F52C28167D00CAD772 /* Preview Content */,
+			);
+			path = "VK-Watch";
+			sourceTree = "<group>";
+		};
+		11A1E5F52C28167D00CAD772 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11A1E5F62C28167D00CAD772 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11A1E5FF2C28167D00CAD772 /* VK-WatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				11A1E6002C28167D00CAD772 /* VK_WatchTests.swift */,
+			);
+			path = "VK-WatchTests";
+			sourceTree = "<group>";
+		};
+		11A1E6092C28167D00CAD772 /* VK-WatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11A1E60A2C28167D00CAD772 /* VK_WatchUITests.swift */,
+				11A1E60C2C28167D00CAD772 /* VK_WatchUITestsLaunchTests.swift */,
+			);
+			path = "VK-WatchUITests";
+			sourceTree = "<group>";
+		};
+		11A1E6162C28167D00CAD772 /* VK-Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				11A1E6172C28167D00CAD772 /* VK_WatchApp.swift */,
+				11A1E6192C28167D00CAD772 /* ContentView.swift */,
+				11A1E61B2C28167E00CAD772 /* Assets.xcassets */,
+				11A1E61D2C28167E00CAD772 /* Preview Content */,
+			);
+			path = "VK-Watch Watch App";
+			sourceTree = "<group>";
+		};
+		11A1E61D2C28167E00CAD772 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11A1E61E2C28167E00CAD772 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11A1E6272C28167E00CAD772 /* VK-Watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				11A1E6282C28167E00CAD772 /* VK_Watch_Watch_AppTests.swift */,
+			);
+			path = "VK-Watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		11A1E6312C28167E00CAD772 /* VK-Watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11A1E6322C28167E00CAD772 /* VK_Watch_Watch_AppUITests.swift */,
+				11A1E6342C28167E00CAD772 /* VK_Watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "VK-Watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A1E5EB2C28167C00CAD772 /* VK-Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A1E63C2C28167E00CAD772 /* Build configuration list for PBXNativeTarget "VK-Watch" */;
+			buildPhases = (
+				11A1E5E82C28167C00CAD772 /* Sources */,
+				11A1E5E92C28167C00CAD772 /* Frameworks */,
+				11A1E5EA2C28167C00CAD772 /* Resources */,
+				11A1E63B2C28167E00CAD772 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A1E6152C28167D00CAD772 /* PBXTargetDependency */,
+			);
+			name = "VK-Watch";
+			productName = "VK-Watch";
+			productReference = 11A1E5EC2C28167C00CAD772 /* VK-Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11A1E5FB2C28167D00CAD772 /* VK-WatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A1E63F2C28167E00CAD772 /* Build configuration list for PBXNativeTarget "VK-WatchTests" */;
+			buildPhases = (
+				11A1E5F82C28167D00CAD772 /* Sources */,
+				11A1E5F92C28167D00CAD772 /* Frameworks */,
+				11A1E5FA2C28167D00CAD772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A1E5FE2C28167D00CAD772 /* PBXTargetDependency */,
+			);
+			name = "VK-WatchTests";
+			productName = "VK-WatchTests";
+			productReference = 11A1E5FC2C28167D00CAD772 /* VK-WatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11A1E6052C28167D00CAD772 /* VK-WatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A1E6422C28167E00CAD772 /* Build configuration list for PBXNativeTarget "VK-WatchUITests" */;
+			buildPhases = (
+				11A1E6022C28167D00CAD772 /* Sources */,
+				11A1E6032C28167D00CAD772 /* Frameworks */,
+				11A1E6042C28167D00CAD772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A1E6082C28167D00CAD772 /* PBXTargetDependency */,
+			);
+			name = "VK-WatchUITests";
+			productName = "VK-WatchUITests";
+			productReference = 11A1E6062C28167D00CAD772 /* VK-WatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		11A1E6112C28167D00CAD772 /* VK-Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A1E6382C28167E00CAD772 /* Build configuration list for PBXNativeTarget "VK-Watch Watch App" */;
+			buildPhases = (
+				11A1E60E2C28167D00CAD772 /* Sources */,
+				11A1E60F2C28167D00CAD772 /* Frameworks */,
+				11A1E6102C28167D00CAD772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VK-Watch Watch App";
+			productName = "VK-Watch Watch App";
+			productReference = 11A1E6122C28167D00CAD772 /* VK-Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11A1E6232C28167E00CAD772 /* VK-Watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A1E6452C28167E00CAD772 /* Build configuration list for PBXNativeTarget "VK-Watch Watch AppTests" */;
+			buildPhases = (
+				11A1E6202C28167E00CAD772 /* Sources */,
+				11A1E6212C28167E00CAD772 /* Frameworks */,
+				11A1E6222C28167E00CAD772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A1E6262C28167E00CAD772 /* PBXTargetDependency */,
+			);
+			name = "VK-Watch Watch AppTests";
+			productName = "VK-Watch Watch AppTests";
+			productReference = 11A1E6242C28167E00CAD772 /* VK-Watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11A1E62D2C28167E00CAD772 /* VK-Watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A1E6482C28167E00CAD772 /* Build configuration list for PBXNativeTarget "VK-Watch Watch AppUITests" */;
+			buildPhases = (
+				11A1E62A2C28167E00CAD772 /* Sources */,
+				11A1E62B2C28167E00CAD772 /* Frameworks */,
+				11A1E62C2C28167E00CAD772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A1E6302C28167E00CAD772 /* PBXTargetDependency */,
+			);
+			name = "VK-Watch Watch AppUITests";
+			productName = "VK-Watch Watch AppUITests";
+			productReference = 11A1E62E2C28167E00CAD772 /* VK-Watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A1E5E42C28167C00CAD772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					11A1E5EB2C28167C00CAD772 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					11A1E5FB2C28167D00CAD772 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 11A1E5EB2C28167C00CAD772;
+					};
+					11A1E6052C28167D00CAD772 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 11A1E5EB2C28167C00CAD772;
+					};
+					11A1E6112C28167D00CAD772 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					11A1E6232C28167E00CAD772 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 11A1E6112C28167D00CAD772;
+					};
+					11A1E62D2C28167E00CAD772 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 11A1E6112C28167D00CAD772;
+					};
+				};
+			};
+			buildConfigurationList = 11A1E5E72C28167C00CAD772 /* Build configuration list for PBXProject "VK-Watch" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11A1E5E32C28167C00CAD772;
+			productRefGroup = 11A1E5ED2C28167C00CAD772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A1E5EB2C28167C00CAD772 /* VK-Watch */,
+				11A1E5FB2C28167D00CAD772 /* VK-WatchTests */,
+				11A1E6052C28167D00CAD772 /* VK-WatchUITests */,
+				11A1E6112C28167D00CAD772 /* VK-Watch Watch App */,
+				11A1E6232C28167E00CAD772 /* VK-Watch Watch AppTests */,
+				11A1E62D2C28167E00CAD772 /* VK-Watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A1E5EA2C28167C00CAD772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A1E5F72C28167D00CAD772 /* Preview Assets.xcassets in Resources */,
+				11A1E5F42C28167D00CAD772 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E5FA2C28167D00CAD772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E6042C28167D00CAD772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E6102C28167D00CAD772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A1E61F2C28167E00CAD772 /* Preview Assets.xcassets in Resources */,
+				11A1E61C2C28167E00CAD772 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E6222C28167E00CAD772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E62C2C28167E00CAD772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A1E5E82C28167C00CAD772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A1E5F22C28167C00CAD772 /* ContentView.swift in Sources */,
+				11A1E5F02C28167C00CAD772 /* VK_WatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E5F82C28167D00CAD772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A1E6012C28167D00CAD772 /* VK_WatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E6022C28167D00CAD772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A1E60D2C28167D00CAD772 /* VK_WatchUITestsLaunchTests.swift in Sources */,
+				11A1E60B2C28167D00CAD772 /* VK_WatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E60E2C28167D00CAD772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A1E61A2C28167D00CAD772 /* ContentView.swift in Sources */,
+				11A1E6182C28167D00CAD772 /* VK_WatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E6202C28167E00CAD772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A1E6292C28167E00CAD772 /* VK_Watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A1E62A2C28167E00CAD772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A1E6332C28167E00CAD772 /* VK_Watch_Watch_AppUITests.swift in Sources */,
+				11A1E6352C28167E00CAD772 /* VK_Watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A1E5FE2C28167D00CAD772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A1E5EB2C28167C00CAD772 /* VK-Watch */;
+			targetProxy = 11A1E5FD2C28167D00CAD772 /* PBXContainerItemProxy */;
+		};
+		11A1E6082C28167D00CAD772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A1E5EB2C28167C00CAD772 /* VK-Watch */;
+			targetProxy = 11A1E6072C28167D00CAD772 /* PBXContainerItemProxy */;
+		};
+		11A1E6152C28167D00CAD772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A1E6112C28167D00CAD772 /* VK-Watch Watch App */;
+			targetProxy = 11A1E6142C28167D00CAD772 /* PBXContainerItemProxy */;
+		};
+		11A1E6262C28167E00CAD772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A1E6112C28167D00CAD772 /* VK-Watch Watch App */;
+			targetProxy = 11A1E6252C28167E00CAD772 /* PBXContainerItemProxy */;
+		};
+		11A1E6302C28167E00CAD772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A1E6112C28167D00CAD772 /* VK-Watch Watch App */;
+			targetProxy = 11A1E62F2C28167E00CAD772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11A1E6362C28167E00CAD772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11A1E6372C28167E00CAD772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		11A1E6392C28167E00CAD772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VK-Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9T68J2P2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VK-Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "vislofie.VK-Watch";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vislofie.VK-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		11A1E63A2C28167E00CAD772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VK-Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9T68J2P2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VK-Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "vislofie.VK-Watch";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vislofie.VK-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		11A1E63D2C28167E00CAD772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VK-Watch/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9T68J2P2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VK-Watch";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vislofie.VK-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11A1E63E2C28167E00CAD772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VK-Watch/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9T68J2P2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VK-Watch";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vislofie.VK-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A1E6402C28167E00CAD772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9T68J2P2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vislofie.VK-WatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VK-Watch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VK-Watch";
+			};
+			name = Debug;
+		};
+		11A1E6412C28167E00CAD772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9T68J2P2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vislofie.VK-WatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VK-Watch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VK-Watch";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A1E6432C28167E00CAD772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9T68J2P2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vislofie.VK-WatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VK-Watch";
+			};
+			name = Debug;
+		};
+		11A1E6442C28167E00CAD772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9T68J2P2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vislofie.VK-WatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VK-Watch";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A1E6462C28167E00CAD772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9T68J2P2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vislofie.VK-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VK-Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VK-Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		11A1E6472C28167E00CAD772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9T68J2P2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vislofie.VK-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VK-Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VK-Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		11A1E6492C28167E00CAD772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9T68J2P2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vislofie.VK-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "VK-Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		11A1E64A2C28167E00CAD772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9T68J2P2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vislofie.VK-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "VK-Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A1E5E72C28167C00CAD772 /* Build configuration list for PBXProject "VK-Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A1E6362C28167E00CAD772 /* Debug */,
+				11A1E6372C28167E00CAD772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A1E6382C28167E00CAD772 /* Build configuration list for PBXNativeTarget "VK-Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A1E6392C28167E00CAD772 /* Debug */,
+				11A1E63A2C28167E00CAD772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A1E63C2C28167E00CAD772 /* Build configuration list for PBXNativeTarget "VK-Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A1E63D2C28167E00CAD772 /* Debug */,
+				11A1E63E2C28167E00CAD772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A1E63F2C28167E00CAD772 /* Build configuration list for PBXNativeTarget "VK-WatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A1E6402C28167E00CAD772 /* Debug */,
+				11A1E6412C28167E00CAD772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A1E6422C28167E00CAD772 /* Build configuration list for PBXNativeTarget "VK-WatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A1E6432C28167E00CAD772 /* Debug */,
+				11A1E6442C28167E00CAD772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A1E6452C28167E00CAD772 /* Build configuration list for PBXNativeTarget "VK-Watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A1E6462C28167E00CAD772 /* Debug */,
+				11A1E6472C28167E00CAD772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A1E6482C28167E00CAD772 /* Build configuration list for PBXNativeTarget "VK-Watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A1E6492C28167E00CAD772 /* Debug */,
+				11A1E64A2C28167E00CAD772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A1E5E42C28167C00CAD772 /* Project object */;
+}
